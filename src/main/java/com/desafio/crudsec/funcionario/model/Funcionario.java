@@ -24,7 +24,6 @@ public class Funcionario implements Serializable {
 	private String password;
 
 	public Funcionario(String username, String password) {
-		super();
 		this.username = username;
 		this.password = password;
 	}
